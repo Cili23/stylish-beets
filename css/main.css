@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Serif", serif;
+  color: #222;
+  background-color: #c9b5ab;
 }
 
 *, *::before, *::after {
@@ -8,25 +10,45 @@ html {
 }
 
 /*
-font-family: 'PT Sans', sans-serif;
-font-family: 'PT Serif', serif;
+font-family: "PT Sans", sans-serif;
+font-family: "PT Serif", serif;
 */
 
 h1 {
   color: #3f1622;
 }
 
-nav ol {
-list-style: none;
-margin: 0 0 0 1.5em;
-padding: 0;
-font-family: 'PT Sans', sans-serif;
-font-size: 1.25rem;
-color: #8f2440;
-line-height: 1.5rem;
-background-color: #c9b5ab;
+header ol {
+  list-style: none;
+  border-bottom: none;
+}
+
+header a {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: #8f2440;
+  line-height: 1.5rem;
+}
+
+header a:hover {
+color: #3f1622;
+border-bottom: 3px line;
 }
 
 img {
-width: 50%;
+width: 100%;
+}
+
+figure {
+margin: 0;
+padding: 0 0 0 2.5rem;
+}
+
+figcaption {
+font-size: .8em;
+font-style: italic;
+text-align: center;
 }
